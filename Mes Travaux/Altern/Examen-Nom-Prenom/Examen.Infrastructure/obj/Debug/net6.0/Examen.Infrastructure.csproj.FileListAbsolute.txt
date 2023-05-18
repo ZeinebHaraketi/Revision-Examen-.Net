@@ -1,0 +1,17 @@
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\bin\Debug\net6.0\Examen.Infrastructure.deps.json
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\bin\Debug\net6.0\Examen.Infrastructure.runtimeconfig.json
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\bin\Debug\net6.0\Examen.Infrastructure.dll
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\bin\Debug\net6.0\Examen.Infrastructure.pdb
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\bin\Debug\net6.0\Examen.ApplicationCore.dll
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\bin\Debug\net6.0\Examen.ApplicationCore.pdb
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.dll
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\obj\Debug\net6.0\refint\Examen.Infrastructure.dll
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.pdb
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Examen-Nom-Prenom\Examen.Infrastructure\obj\Debug\net6.0\ref\Examen.Infrastructure.dll

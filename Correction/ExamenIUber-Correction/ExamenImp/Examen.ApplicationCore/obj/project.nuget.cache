@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ALnnZdcsG+uKLANCyImk/+JCtM7njOIcMBCnrFvVxmmfMpVXWqQ2XjGYaI+Dhz7ppEo/byUYICWCwfbHhcak/Q==",
+  "success": true,
+  "projectFilePath": "D:\\.NET2022-2023\\Repo-1Semestre\\Révision\\ExamenImp\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abir Hbecha\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.9\\microsoft.entityframeworkcore.abstractions.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

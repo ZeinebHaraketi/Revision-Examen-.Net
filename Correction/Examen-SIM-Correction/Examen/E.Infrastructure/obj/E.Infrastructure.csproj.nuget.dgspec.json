@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\.NET2022-2023\\Repo-1Semestre\\Revision2\\Examen\\E.Infrastructure\\E.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\.NET2022-2023\\Repo-1Semestre\\Revision2\\Examen\\E.ApplicationCore\\E.ApplicationCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.NET2022-2023\\Repo-1Semestre\\Revision2\\Examen\\E.ApplicationCore\\E.ApplicationCore.csproj",
+        "projectName": "E.ApplicationCore",
+        "projectPath": "D:\\.NET2022-2023\\Repo-1Semestre\\Revision2\\Examen\\E.ApplicationCore\\E.ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\Abir Hbecha\\.nuget\\packages\\",
+        "outputPath": "D:\\.NET2022-2023\\Repo-1Semestre\\Revision2\\Examen\\E.ApplicationCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Abir Hbecha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.NET2022-2023\\Repo-1Semestre\\Revision2\\Examen\\E.Infrastructure\\E.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.NET2022-2023\\Repo-1Semestre\\Revision2\\Examen\\E.Infrastructure\\E.Infrastructure.csproj",
+        "projectName": "E.Infrastructure",
+        "projectPath": "D:\\.NET2022-2023\\Repo-1Semestre\\Revision2\\Examen\\E.Infrastructure\\E.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Abir Hbecha\\.nuget\\packages\\",
+        "outputPath": "D:\\.NET2022-2023\\Repo-1Semestre\\Revision2\\Examen\\E.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Abir Hbecha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\.NET2022-2023\\Repo-1Semestre\\Revision2\\Examen\\E.ApplicationCore\\E.ApplicationCore.csproj": {
+                "projectPath": "D:\\.NET2022-2023\\Repo-1Semestre\\Revision2\\Examen\\E.ApplicationCore\\E.ApplicationCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

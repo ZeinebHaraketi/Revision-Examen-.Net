@@ -1,0 +1,62 @@
+﻿@model Examen.ApplicationCore.Domain.Prestation
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Prestation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Intitule" class="control-label"></label>
+                <input asp-for="Intitule" class="form-control" />
+                <span asp-validation-for="Intitule" class="text-danger"></span>
+            </div>
+           @* <div class="form-group">
+                <label asp-for="PrestationId" class="control-label"></label>
+                <input asp-for="PrestationId" class="form-control" />
+                <span asp-validation-for="PrestationId" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="PrestationType" class="control-label"></label>
+                @*<input asp-for="PrestationType" class="form-control" />*@
+                <select asp-for="PrestationType" class="form-control"
+                        asp-items="Html.GetEnumSelectList<Examen.ApplicationCore.Domain.Type>()"></select>
+                <span asp-validation-for="PrestationType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prix" class="control-label"></label>
+                <input asp-for="Prix" class="form-control" />
+                <span asp-validation-for="Prix" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PrestataireFk" class="control-label"></label>
+                @*<input asp-for="PrestataireFk" class="form-control" />*@
+                <select asp-for="PrestataireFk" class="form-control" asp-items="ViewBag.PrestataireFk"></select>
+
+                <span asp-validation-for="PrestataireFk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

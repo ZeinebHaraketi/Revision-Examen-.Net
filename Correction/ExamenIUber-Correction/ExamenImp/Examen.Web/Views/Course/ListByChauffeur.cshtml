@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Examen.ApplicationCore.Domain.Course>
+
+@{
+    ViewData["Title"] = "ListByChauffeur";
+}
+
+<h1>ListByChauffeur</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DateCourse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LieuDepart)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VoitureId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LieuArrivee)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Etat)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateCourse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LieuDepart)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VoitureId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LieuArrivee)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Etat)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,1 @@
+//Puisque les documents sont sous forme .cs ===> Ouvrir avec un éditeur de texte 
